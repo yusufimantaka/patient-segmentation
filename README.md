@@ -105,6 +105,7 @@ Healthcare providers serve diverse patient populations — varying by age, insur
 patient_segmentation_project/
 ├── clustering.ipynb                  # Data Cleaning and Clustering Source Code
 ├── patient_segmentation_dataset.csv  # Dataset
+├── figures/                          # Result figures
 ├── README.md
 └── .gitignore
 ```
@@ -136,9 +137,21 @@ jupyter notebook clustering.ipynb
 
 The Elbow Method and Silhouette Score are used to find the optimal number of clusters. The best k by Silhouette Score is **18**.
 
+![Elbow method](figures/elbow_method.png)
+
+![Silhouette scores for K-Means](figures/kmeans_silhouette.png)
+
+![K-Means clusters in PCA space](figures/kmeans_pca_scatter.png)
+
+![K-Means cluster centroids in PCA space](figures/kmeans_pca_centroids.png)
+
 ### Hierarchical (Agglomerative) Clustering
 
 The best k by Silhouette Score is **19**.
+
+![Silhouette scores for Agglomerative clustering](figures/agglomerative_silhouette.png)
+
+![Dendrogram](figures/dendrogram.png)
 
 ### Analysis
 
