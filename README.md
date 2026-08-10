@@ -43,7 +43,7 @@ Healthcare providers serve diverse patient populations — varying by age, insur
 
 ## Dataset
 
-**Source:** [Patient Segmentation Dataset — Kaggle](https://www.kaggle.com/) (2,000 patient records)
+**Source:** [Patient Segmentation Dataset — Kaggle](https://www.kaggle.com/datasets/nudratabbas/patient-segmentation-data) (2,000 patient records)
 
 
 | Feature                  | Type        | Description                                  |
@@ -146,7 +146,7 @@ Both methods produce a large number of clusters with low silhouette scores. The 
 
 ## References
 
-- Patient Segmentation Dataset, Kaggle
+- [Patient Segmentation Dataset](https://www.kaggle.com/datasets/nudratabbas/patient-segmentation-data), Kaggle
 - Scikit-learn documentation: https://scikit-learn.org
 
 ## License
